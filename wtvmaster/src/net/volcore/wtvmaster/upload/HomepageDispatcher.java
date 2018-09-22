@@ -55,6 +55,8 @@ public class HomepageDispatcher
     /** Public functionality */
         public void dispatch( final int gameid )
         {
+			return;
+			
             workerThreadPool.submit( new Runnable( )
             {
                 public void run( )

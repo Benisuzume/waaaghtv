@@ -67,7 +67,7 @@ public class HibernateUserDatabase extends UserDatabase
 
         public int validateOrganisation( String username, String organisation )
         {
-            return 0;
+            return this.CERTIFIED_ORGANISATION_MASK;
         }
 }
 
